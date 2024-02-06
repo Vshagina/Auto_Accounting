@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <item
+        android:id="@+id/add_vehicle"
+        android:title="Добавить ТС" />
+    <!-- Пункт меню для Транспортного средства -->
+    <item
+        android:id="@+id/transportSubMenuGroup"
+        android:title="Добавленные:">
+        <menu>
+            <!-- Подменю для Транспортного средства -->
+            <group android:id="@+id/transportSubMenuGroup" />
+
+        </menu>
+    </item>
+
+
+</menu>

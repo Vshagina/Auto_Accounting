@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <style name="DateTimePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+        <item name="android:timePickerStyle">@style/MyTimePickerStyle</item>
+
+    </style>
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.DatePicker">
+
+        <!-- Задайте фон заголовка -->
+        <item name="android:headerBackground">#FF0000</item>
+        <!-- Задайте цвет текста кнопок "Отмена" и "OK" -->
+        <item name="android:colorControlNormal">#F7FF00</item>
+        <!-- Задайте цвет текста дней недели -->
+        <item name="android:windowBackground">#7F0088</item>
+
+    </style>
+
+    <style name="MyTimePickerStyle" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:colorControlActivated">#00FFEA</item>
+        <item name="android:colorAccent">#6E009C</item>
+        <item name="android:textColorSecondary">#11FF00</item>
+        <item name="android:textColorPrimary">#FF0000</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#FFFFFF</item> 
+    </style>
+
+</resources>

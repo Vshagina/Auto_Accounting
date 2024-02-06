@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Для транспортных средств -->
+    <string-array name="transport_types">
+        <item>Машина</item>
+        <item>Мотоцикл</item>
+    </string-array>
+
+    <!-- Для марок автомобилей -->
+    <string-array name="brands">
+        <item>BMW</item>
+        <item>TOYOTA</item>
+        <item>SKODA</item>
+        <item>OPEL</item>
+        <item>LADA</item>
+    </string-array>
+
+    <!-- Для моделей автомобилей -->
+    <string-array name="models">
+        <item>1 серии</item>
+        <item>Allex</item>
+        <item>Citigo</item>
+        <item>Adam</item>
+        <item>Granta</item>
+    </string-array>
+
+    <!-- Для топлива автомобилей -->
+    <string-array name="fuels">
+        <item>Бензин</item>
+        <item>Газ</item>
+        <item>Дизель</item>
+        <item>Электрический</item>
+        <item>Биодизельное</item>
+    </string-array>
+
+    <!-- Год выпуска -->
+    <string-array name="years">
+        <item>2000</item>
+        <item>2007</item>
+        <item>2013</item>
+    </string-array>
+
+
+    <!--Прочее-->
+    <string-array name="other">
+        <item>Регистрация</item>
+        <item>Страховка</item>
+        <item>Штраф</item>
+        <item>Налог</item>
+        <item>Кредит</item>
+        <item>Платный проезд</item>
+        <item>Мойка</item>
+        <item>Парковка</item>
+        <item>Гос.ТО</item>
+    </string-array>
+
+    <!-- Сервис -->
+    <string-array name="services">
+        <item>ТО</item>
+        <item>Ремонт</item>
+        <item>Замена</item>
+        <item>Диагностика</item>
+        <item>Шиномонтаж</item>
+        <item>Тюнинг</item>
+        <item>Запчасти</item>
+    </string-array>
+
+
+
+    <!-- Категории -->
+    <string-array name="categories">
+        <item>Заправка</item>
+        <item>Сервис</item>
+    </string-array>
+
+
+    <!-- Для брендов машин -->
+    <string-array name="car_brands">
+        <item>BMW</item>
+        <item>TOYOTA</item>
+        <item>SKODA</item>
+        <item>OPEL</item>
+        <item>LADA</item>
+    </string-array>
+
+    <!-- Для брендов мотоциклов -->
+    <string-array name="motorcycle_brands">
+    <item>Harley-Davidson</item>
+    <item>Honda</item>
+    <item>Yamaha</item>
+    </string-array>
+
+
+    <!-- Для моделей машин -->
+    <string-array name="car_models">
+        <item>1 серии</item>
+        <item>Allex</item>
+        <item>Citigo</item>
+        <item>Adam</item>
+        <item>Granta</item>
+    </string-array>
+
+    <!-- Для моделей мотоциклов -->
+    <string-array name="motorcycle_models">
+        <item>Sportster</item>
+        <item>CBR</item>
+        <item>YZF</item>
+    </string-array>
+</resources>

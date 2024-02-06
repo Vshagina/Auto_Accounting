@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomFragment">
+
+    <TextView
+        android:id="@+id/makeAndModel"
+        android:layout_width="339dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="250dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/wholeListRefill"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="250dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Заправки" />
+    <TextView
+        android:id="@+id/wholeListService"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="250dp"
+        android:text="Сервисы"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/wholeListOther"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="250dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Прочее" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRefill"
+        android:layout_width="396dp"
+        android:layout_height="99dp"
+        android:layout_below="@id/makeAndModel"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="250dp"
+        android:background="#A3A3A3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewService"
+        android:layout_width="396dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="250dp"
+        android:background="#A3A3A3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewOther"
+        android:layout_width="396dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="250dp"
+        android:background="#A3A3A3" />
+
+
+    <!-- View для цвета фона при свайпе влево -->
+    <View
+        android:id="@+id/swipeLeftBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground" />
+
+    <!-- View для цвета фона при свайпе вправо -->
+    <View
+        android:id="@+id/swipeRightBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground" />
+
+</FrameLayout>

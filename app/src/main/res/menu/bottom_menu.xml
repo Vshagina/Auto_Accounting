@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/refill"
+        android:title="Заправка"
+        android:icon="@drawable/petrol1" />
+    <item
+        android:id="@+id/service"
+        android:title="Сервис"
+        android:icon="@drawable/service" />
+    <item
+        android:title="" />
+    <item
+        android:id="@+id/other"
+        android:icon="@drawable/other"
+        android:title="Прочее" />
+    <item
+        android:id="@+id/note"
+        android:title="Заметки"
+        android:icon="@drawable/note"/>
+
+
+</menu>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditTsFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="275dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="54dp"
+        android:text="Редактирование"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editTypeTS"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="126dp"
+        android:background="@drawable/effects"
+        android:drawableStart="@drawable/baseline_chevron_left"
+        android:drawablePadding="12dp"
+        android:hint="Тип ТС" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editBrand"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTypeTS"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/effects"
+        android:drawableStart="@drawable/car_commute"
+        android:drawablePadding="12dp"
+        android:hint="Марка" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editModel"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTypeTS"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/editBrand"
+        android:background="@drawable/effects"
+        android:drawableStart="@drawable/car_commute"
+        android:drawablePadding="12dp"
+        android:hint="Модель" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editFuel"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editBrand"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/effects"
+        android:drawableStart="@drawable/battery"
+        android:drawablePadding="12dp"
+        android:hint="Вид топлива"
+        android:textColor="@color/black" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editYear"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editModel"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/editFuel"
+        android:background="@drawable/effects"
+        android:drawableStart="@drawable/date"
+        android:drawablePadding="12dp"
+        android:hint="Год выпуска" />
+
+    <Button
+        android:id="@+id/editAddCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editYear"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/black"
+        android:text="Отредактировать "
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/deleteAddCar"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editYear"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="26dp"
+        android:layout_toEndOf="@+id/editAddCar"
+        android:backgroundTint="@color/black"
+        android:text="Удалить"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

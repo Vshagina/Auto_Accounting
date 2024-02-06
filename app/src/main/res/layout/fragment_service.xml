@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceFragment">
+
+    <TextView
+        android:id="@+id/textViewService"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="130dp"
+        android:text="Сервис"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/timeAndDateService"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amountService"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="105dp"
+        android:background="@drawable/effects"
+        android:drawableStart="@drawable/time"
+        android:drawablePadding="12dp"
+        android:hint="Время и дата" />
+
+    <AutoCompleteTextView
+        android:id="@+id/typeService"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewService"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="105dp"
+        android:background="@drawable/effects"
+        android:drawableStart="@drawable/service"
+        android:drawablePadding="12dp"
+        android:hint="Вид сервиса" />
+
+    <AutoCompleteTextView
+        android:id="@+id/amountService"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/typeService"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="105dp"
+        android:background="@drawable/effects"
+        android:drawableStart="@drawable/money"
+        android:drawablePadding="12dp"
+        android:hint="Сумма" />
+
+    <Button
+        android:id="@+id/buttonService"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeAndDateService"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/black"
+        android:textStyle="italic"
+        android:text="Добавить"/>
+
+</RelativeLayout>
