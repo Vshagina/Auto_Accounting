@@ -66,6 +66,8 @@
 
 Для использования приложения давайте установим его! Перейдите по ссылке для скачивания [APK файла](https://github.com/Vshagina/Auto_Accounting/blob/master/apk/Auto_Accounting.apk)
 
+Или же вы можете его найти в папке репозитория: 
+
 ![APK](https://github.com/Vshagina/Auto_Accounting/blob/master/animation/images/apk.jpg "APK")
 
 После скачивания, установите его 
